@@ -10,5 +10,14 @@ int main() {
 
     printf("Value after adding 1: %d\n", value);  // 오버플로우가 발생한 후의 value 값을 출력한다. 예상과 달리 -128(0x80)이 출력될 것이다.
   
+    //터미널열고, gcc -o char_overflow char_overflow.c -g 실행
+    //gdb char_overflow 실행
+    //b main 입력
+    //r 입력
+    //n 입력
+    //n 입력
+    //p/t value 입력  0111 1111 = 127(10진수) = 0x7F(16진수)
+    //n 입력
+    //p value 입력 1000 0000 = -128(10진수) = 0x80(16진수)
     return 0;
 }
