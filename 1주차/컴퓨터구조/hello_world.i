@@ -2,8 +2,6 @@
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "hello_world.c"
-
-
 # 1 "C:/Users/samsung/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdio.h" 1 3
 # 9 "C:/Users/samsung/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdio.h" 3
 # 1 "C:/Users/samsung/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 1 3
@@ -1523,19 +1521,11 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 # 912 "C:/Users/samsung/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
   __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _fread_nolock_s(void *_DstBuf,size_t _DstSize,size_t _ElementSize,size_t _Count,FILE *_File);
 # 1339 "C:/Users/samsung/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdio.h" 2 3
-# 4 "hello_world.c" 2
+# 2 "hello_world.c" 2
 
 
-
-# 6 "hello_world.c"
+# 3 "hello_world.c"
 int main() {
-
-
-
-
     printf("Hello, World!\n");
-
-
-
     return 0;
 }
