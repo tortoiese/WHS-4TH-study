@@ -1,8 +1,10 @@
 {
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": false,
     "code-runner.runInTerminal": true,
     "code-runner.clearPreviousOutput": true,
     "code-runner.executorMap": {
-        "c": "cd $dir; gcc \"$fileName\" -o \"$fileNameWithoutExt.exe\"; if ($?) { & \"./$fileNameWithoutExt.exe\" }",
-        "cpp": "cd $dir; g++ \"$fileName\" -o \"$fileNameWithoutExt.exe\"; if ($?) { & \"./$fileNameWithoutExt.exe\" }"
+        "c": "cd $dir; chcp 65001 > $null; gcc \"$fileName\" -o \"$fileNameWithoutExt.exe\"; if ($?) { & \"./$fileNameWithoutExt.exe\" }",
+        "cpp": "cd $dir; chcp 65001 > $null; g++ \"$fileName\" -o \"$fileNameWithoutExt.exe\"; if ($?) { & \"./$fileNameWithoutExt.exe\" }"
     }
 }
